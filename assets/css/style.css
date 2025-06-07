@@ -70,6 +70,8 @@ body {
 
 .main-content h1 {
   text-align: center;
+  /* Animación */
+  animation: fadeInScale 1.5s ease-in-out infinite alternate;
 }
 
 /* Galería */
@@ -119,7 +121,7 @@ body {
   }
   100% {
     opacity: 1;
-    transform: scale(1.j5);
+    transform: scale(1.5);
     text-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Efecto de brillo */
   }
 }
